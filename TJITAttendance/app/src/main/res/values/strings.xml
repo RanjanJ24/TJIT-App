@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">TJIT App</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="Regno">Register Number</string>
+    <string name="LoginBtn">Login</string>
+    <string name="show">Show Data</string>
+    <string name="SignupBtn">Sign Up</string>
+    <string name="LogoutBtn">Log Out</string>
+    <string name="chpassword">Change Password</string>
+    <string name="reset">Reset Password</string>
+    <string name="Welcome">Welcome!</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="drawer_open">open nav drawer</string>
+    <string name="drawer_close">close nav drawer</string>
+
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="content">
+        <item>Change Password</item>
+        <item >About</item>
+        <item >Contact Us</item>
+        <item >LogOut</item>
+    </string-array>
+</resources>

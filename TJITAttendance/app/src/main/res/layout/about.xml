@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#330000"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:gravity="center">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="About The TJITApp"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Havent we all wondered what our attendence is in a class?.Havent we all made a group around our teachers trying to ask them about our attendance? Dont we want to know our internal and external marks are on the go?. Well, this app answers all these questions. TJITApp is an app that allows students to get their attendance and marks status whenever we want. We do not need to wait to ask our lecturers about our attendance or marks. Only thing we need is an internet connection and this app. Everything we need in shown on the app in a systematic and a user friendly manner that will be pleasing to the eyes and easy to use."
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:gravity="left"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

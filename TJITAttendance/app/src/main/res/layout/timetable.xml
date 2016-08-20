@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:gravity="center" android:background="#330000">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvtimetable"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvtimetablelink"
+        android:gravity="left"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:text="http://www.mediafire.com/download/m5fe8ksa3gi7pe5/TJIT_TIME_TABLE_2016_EVEN_SEM_%28FINAL_UPDATED%29.pdf"
+        android:autoLink="all"/>
+
+</LinearLayout>

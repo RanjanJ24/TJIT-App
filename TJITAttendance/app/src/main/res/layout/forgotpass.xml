@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="#330000"
+    android:padding="30dip">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your E-Mail"
+        android:id="@+id/etresetemail"
+        android:textColor="#ffffff"
+        android:inputType="textEmailAddress"/>
+    <Button
+        android:id="@+id/bresetpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RESET"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tvresetresult"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:gravity="center"/>
+</LinearLayout>

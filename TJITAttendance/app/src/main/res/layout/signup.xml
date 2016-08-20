@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="#330000">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Please enter the following details to signup"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        android:gravity="center"
+        android:layout_marginTop="15dp"/>
+
+
+    <EditText
+        android:id="@+id/etregno"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Register Number"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etusn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="USN"
+        android:gravity="center"
+        android:layout_below="@+id/etregno"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etpassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:gravity="center"
+        android:layout_below="@+id/etusn"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/etemail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:gravity="center"
+        android:layout_below="@+id/etpassword"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/bsignup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blogin"
+        android:text="REGISTER" />
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#330000">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Information"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="My name is Ranjan J and I am the developer of the app. My Information is given below and it can be used to send me suggestions to make the app better or to ask any queries."
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:gravity="left"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone No: +91 9538636578"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:gravity="left"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Email ID: ranjan.jayapal@gmail.com"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:gravity="left"
+        android:layout_marginBottom="20dp"/>
+
+</LinearLayout>

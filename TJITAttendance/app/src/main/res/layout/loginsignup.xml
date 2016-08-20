@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="10dip" android:orientation="vertical" android:background="#330000">
+
+
+    <EditText
+        android:id="@+id/etregno"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Register Number"
+        android:inputType="text"
+        android:layout_marginTop="25dp"/>
+
+    <EditText
+        android:id="@+id/etpassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_below="@+id/etregno"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"/>
+
+
+    <Button
+        android:id="@+id/blogin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etpassword"
+        android:text="@string/LoginBtn"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"/>
+
+    <TextView
+        android:id="@+id/bsignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/SignupBtn"
+        android:textColor="#ffffff"
+        android:layout_below="@id/blogin"
+        android:textSize="20dp"
+        android:gravity="left"
+        android:layout_marginTop="15dp"/>
+    <TextView
+            android:id="@+id/bforgotpass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password"
+            android:textColor="#ffffff"
+        android:layout_below="@id/bsignup"
+        android:textSize="20dp"
+            android:gravity="right"
+            android:layout_marginTop="15dp"/>
+    </RelativeLayout>
